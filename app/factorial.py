@@ -1,13 +1,13 @@
 def factorial(num):
     dividor = 2
-
-    while num != 1:
+    
+    while num > 1:
         num = num / dividor
         dividor += 1
+        if (num.is_integer()) == False:
+            return "none"
 
     return dividor-1
 
-print( factorial(120) )
-print( factorial(1) )
-print( factorial(2) )
-print( factorial(6) )
+#print( factorial(150) )]
+print(factorial(150))
