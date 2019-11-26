@@ -9,5 +9,4 @@ def factorial(num):
 
     return dividor-1
 
-#print( factorial(150) )]
-print(factorial(150))
+#print(factorial(18))

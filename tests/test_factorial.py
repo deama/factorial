@@ -9,4 +9,5 @@ def test_factorial():
 
 def test_factorial_float():
     assert factorial.factorial(150) == "none"
+    assert factorial.factorial(151) == "none"
     
